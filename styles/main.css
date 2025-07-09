@@ -39,7 +39,25 @@
     cursor: pointer;
 }
 
-/* navigation style */
+.btn-normal {
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    padding: 18px 36px;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* header styles */
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* background-position: 10px 0, bottom right; */
+}
+
+/* navigation styles */
 nav {
     display: flex;
     align-items: center;
@@ -63,7 +81,7 @@ nav ul li a {
 }
 
 nav button:hover {
-    color:gold;
+    color: gold;
 }
 
 .nav-title {
@@ -72,3 +90,33 @@ nav button:hover {
 }
 
 /* banner styles */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 47px 38px 0px 230px;
+}
+
+.hero-contents {
+    max-width: 585px;
+    max-height: 356px;
+}
+
+.hero-hi {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.hero-name {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.hero-message {
+    font-size: 18px;
+}
+
+.hero-prof-pic {
+    width: 584px;
+    height: 676px;
+}
