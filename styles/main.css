@@ -7,6 +7,7 @@
         "wdth" 100;
 }
 
+
 /* shared styles */
 .col-punch {
     color: #FD6E0A;
@@ -26,6 +27,10 @@
 
 .col-dark4 {
     color: #A3A3A3;
+}
+
+.col-bg {
+    background-color: #FFF8F3;
 }
 
 .btn-punch {
@@ -49,8 +54,28 @@
     cursor: pointer;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-copies {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* header styles */
 .header {
+    background-color: #FFF8F3;
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -62,7 +87,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 230px;
+    margin: 0 230px;
 }
 
 nav ul {
@@ -89,34 +114,65 @@ nav button:hover {
     font-size: 45px;
 }
 
-/* banner styles */
+/* hero styles */
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 47px 38px 0px 230px;
 }
 
-.hero-contents {
+.hero-left-block {
     max-width: 585px;
     max-height: 356px;
+    margin: 47px 38px 0 230px;
 }
 
 .hero-hi {
     font-size: 45px;
     font-weight: 600;
+    margin: 0 0 5px 0;
 }
 
 .hero-name {
     font-size: 85px;
     font-weight: bold;
+    margin: 0 0 20px 0;
 }
 
-.hero-message {
-    font-size: 18px;
+.hero-desc-block {
+    margin: 0 0 30px 0;
 }
 
-.hero-prof-pic {
+.hero-right-block {
     width: 584px;
     height: 676px;
+}
+
+/* aboutme styles */
+.aboutme {
+    background-color: #FFF8F3;
+    padding: 130px 156px;
+    border-radius: 10px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.aboutme-items {
+    .margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aboutme-itemhead {
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 5px;
+}
+
+.aboutme-itemdesc {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 0;
 }
