@@ -58,7 +58,6 @@
     font-size: 35px;
     font-weight: bold;
     color: #181818;
-    text-align: center;
     margin-bottom: 30px;
 }
 
@@ -69,6 +68,11 @@
     text-align: center;
 }
 
+.to-center {
+    text-align: center;
+    align-items: center;
+}
+
 /* main styles */
 main {
     max-width: 1140px;
@@ -76,17 +80,17 @@ main {
 }
 
 main section {
-    margin-top: 130px;
-    margin-bottom: 130px;
+    margin-top: 230px;
+    margin-bottom: 230px;
 }
 
 /* header styles */
-.header {
+.header-area {
     background-color: #FFF8F3;
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    /* background-position: 10px 0, bottom right; */
+    /* background-position: top left, bottom right; */
+    background-position: 10px 0, bottom right;
 }
 
 /* navigation styles */
@@ -233,7 +237,7 @@ nav button:hover {
 
 .resume-blocks {
     display: flex;
-    gap: 71px;
+    gap: 24px;
     justify-content: space-between;
 }
 
@@ -241,22 +245,61 @@ nav button:hover {
     margin-top: 113px;
 }
 
-.edu-name, .job-name {
+.edu-name,
+.job-name {
     color: #474747;
     font-size: 25px;
     font-weight: bold;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.edu-dtls, .job-dtls {
+.edu-dtls,
+.job-dtls {
     color: #474747;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.edu-note, .job-note {
+.edu-note,
+.job-note {
     color: #474747;
     font-size: 16px;
     line-height: 28px;
+}
+
+.resume-btn-block {
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+
+/* footer styles */
+.footer-area {
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+
+.footer-block {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    width: 100%;
+    color: #757575;
+    font-size: 16px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+}
+
+footer textarea {
+    height: 180px;
 }
