@@ -58,19 +58,26 @@
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    text-align: center;
     margin-bottom: 30px;
 }
 
-.section-copies {
+.section-copy {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
+    text-align: center;
 }
 
 /* main styles */
 main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /* header styles */
@@ -115,7 +122,7 @@ nav button:hover {
 }
 
 /* hero styles */
-.hero {
+.hero-area {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -124,16 +131,18 @@ nav button:hover {
 .hero-left-block {
     max-width: 585px;
     max-height: 356px;
-    margin: 47px 38px 0 230px;
+    margin: 48px 38px 0 230px;
 }
 
 .hero-hi {
+    color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin: 0 0 5px 0;
 }
 
 .hero-name {
+    color: #181818;
     font-size: 85px;
     font-weight: bold;
     margin: 0 0 20px 0;
@@ -141,6 +150,12 @@ nav button:hover {
 
 .hero-desc-block {
     margin: 0 0 30px 0;
+    text-align: left;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 30px;
 }
 
 .hero-right-block {
@@ -149,30 +164,99 @@ nav button:hover {
 }
 
 /* aboutme styles */
-.aboutme {
+.aboutme-area {
     background-color: #FFF8F3;
     padding: 130px 156px;
     border-radius: 10px;
-    margin-top: 130px;
-    text-align: center;
 }
 
-.aboutme-items {
-    .margin-top: 30px;
+.aboutme-columns {
+    margin-top: 30px;
     display: flex;
+    gap: 50px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.aboutme-itemhead {
+.aboutme-colname {
     font-size: 20px;
     color: #757575;
+    text-align: center;
     margin-bottom: 5px;
 }
 
-.aboutme-itemdesc {
+.aboutme-colvalue {
     font-size: 20px;
     font-weight: bold;
     color: #474747;
+    text-align: center;
     margin-top: 0;
+}
+
+/* whatido styles */
+.whatido-copy {
+    margin: 0 100px;
+}
+
+.skillcards {
+    margin: 50px;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.skillcard {
+    padding: 24px;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-desc {
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+/* resume summary styles */
+.resume-subhead {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-blocks {
+    display: flex;
+    gap: 71px;
+    justify-content: space-between;
+}
+
+.resume-block {
+    margin-top: 113px;
+}
+
+.edu-name, .job-name {
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.edu-dtls, .job-dtls {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.edu-note, .job-note {
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
 }

@@ -21,17 +21,20 @@
             <ul>
                 <li><a class="col-dark2" href="">Portfolio</a></li>
                 <li><a class="col-dark2" href="">Blog</a></li>
-                <li><a href=""><button class="btn-punch">Hire me</button></a></li> 
+                <li><a href=""><button class="btn-punch">Hire me</button></a></li>
             </ul>
         </nav>
 
-        <div class="hero">
+        <div class="hero-area">
             <div class="hero-left-block">
-                <p class="hero-hi col-dark2">Hi, I am</p>
-                <h1 class="hero-name col-dark1">Mary Hardy</h1>
-                <p class="hero-desc-block section-copies">Shot what able cold new see hold. Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn-punch">Download CV</button>
-                <button class="btn-normal">Contact</button>
+                <p class="hero-hi">Hi, I am</p>
+                <h1 class="hero-name">Mary Hardy</h1>
+                <p class="hero-note-block section-copy">Shot what able cold new see hold. Friendly as an betrayed
+                    formerly he. Morning because as to society behaved moments.</p>
+                <div class="hero-buttons">
+                    <button class="btn-punch">Download CV</button>
+                    <button class="btn-normal">Contact</button>
+                </div>
             </div>
 
             <div class="hero-right-block">
@@ -42,26 +45,121 @@
     </header>
 
     <main>
-        <section class="aboutme">
+        <section class="aboutme-area">
             <h3 class="section-title">About Me</h3>
-            <p class="section-copies">I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+            <p class="section-copy">I'm a designer & developer with a passion for web design. I enjoy developing simple,
+                clean and slick websites that provide real value to the end user. Thousands of clients have procured
+                exceptional resulfs while working with me. Delivering work within time and budget which meets clients
+                requirements in our mata.</p>
 
-            <div class="aboutme-items">
+            <div class="aboutme-columns">
+                <!-- .aboutme-item*4>p.aboutme-colname+p.aboutme-colvalue -->
                 <div class="aboutme-item">
-                    <p class="aboutme-itemhead">Name</p>
-                    <p class="aboutme-itemdesc">Mary Hardy</p>
+                    <p class="aboutme-colname">Name</p>
+                    <p class="aboutme-colvalue">Mary Hardy</p>
                 </div>
                 <div class="aboutme-item">
-                    <p class="aboutme-itemhead">Email</p>
-                    <p class="aboutme-itemdesc">info@gmail.com</p>
+                    <p class="aboutme-colname">Email</p>
+                    <p class="aboutme-colvalue">info@gmail.com</p>
                 </div>
                 <div class="aboutme-item">
-                    <p class="aboutme-itemhead">Date of Birth</p>
-                    <p class="aboutme-itemdesc">11 November, 1987</p>
+                    <p class="aboutme-colname">Date of Birth</p>
+                    <p class="aboutme-colvalue">11 November, 1987</p>
                 </div>
                 <div class="aboutme-item">
-                    <p class="aboutme-itemhead">From</p>
-                    <p class="aboutme-itemdesc">Los Angeles, USA</p>
+                    <p class="aboutme-colname">From</p>
+                    <p class="aboutme-colvalue">Los Angeles, USA</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="whatido-area">
+            <h3 class="section-title">What I Do</h3>
+            <p class="section-copy whatido-copy">I have more than 10 years experience building software for clients all
+                over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want
+                to find out more about my experience? Check out my online resume and project portfolio.</p>
+
+            <div class="skillcards">
+                <!-- .skillcard*4>img+h4.skill-title+p.skill-note -->
+                <div class="skillcard">
+                    <img src="/images/icons/js.png" alt="Valina JavaScript">
+                    <h4 class="skill-title">Valina JavaScript</h4>
+                    <p class="skill-note">List skill/technologies here. You can change the icon above to any of the
+                        1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skillcard">
+                    <img src="/images/icons/react.png" alt="React">
+                    <h4 class="skill-title">React</h4>
+                    <p class="skill-note">List skill/technologies here. You can change the icon above to any of the
+                        1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skillcard">
+                    <img src="/images/icons/nodejs.png" alt="Node.js">
+                    <h4 class="skill-title">Node.js</h4>
+                    <p class="skill-note">List skill/technologies here. You can change the icon above to any of the
+                        1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+                <div class="skillcard">
+                    <img src="/images/icons/mongo.png" alt="MongoDB">
+                    <h4 class="skill-title">MongoDB</h4>
+                    <p class="skill-note">List skill/technologies here. You can change the icon above to any of the
+                        1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-area">
+            <h3 class="section-title">A Summary of My Resume</h3>
+
+            <div class="resume-blocks">
+                <div class="resume-block">
+                    <p class="resume-subhead">My Education</p>
+                    <!-- .edu*3>h4.edu-name+p.edu-dtls+p.edu-note -->
+                    <h4 class="edu-name">Master in Computer Engineering</h4>
+                    <div class="edu">
+                        <p class="edu-dtls">Harvard University / 2015 - 2017</p>
+                        <p class="edu-note">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="edu">
+                        <h4 class="edu-name">Master in Computer Engineering</h4>
+                        <p class="edu-dtls">Harvard University / 2015 - 2017</p>
+                        <p class="edu-note">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div class="edu">
+                    <hr>
+                    <div>
+                        <h4 class="edu-name">Master in Computer Engineering</h4>
+                        <p class="edu-dtls">Harvard University / 2015 - 2017</p>
+                        <p class="edu-note">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="resume-block">
+                    <p class="resume-subhead">My Experience</p>
+                    <!-- .job*3>h4.job-name+p.job-dtls+p.job-note -->
+                    <div class="job">
+                        <h4 class="job-name">Sr. Font End Developer</h4>
+                        <p class="job-dtls">Apple Inc / 2020 - Current</p>
+                        <p class="job-note">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4 class="job-name">Jr. Font End Developer</h4>
+                        <p class="job-dtls">Dribbble Inc / 2018 - 2022</p>
+                        <p class="job-note">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4 class="job-name">HTML Developer</h4>
+                        <p class="job-dtls">Adobe Inc / 2017 - 2018</p>
+                        <p class="job-note">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
